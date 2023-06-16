@@ -1,0 +1,14 @@
+Yugioh Chaos Draft Saver!
+
+This small bit of code was created to help me save my drafted cards(on ygoprodeck pack simulator) in case the website happens to get stuck loading the next pack indefinitely.
+
+How to use:
+
+- Use "Inspect element" on the draft page
+- Write down: "chaosdraftarray" in the console
+- Copy the resulting array as an object
+- Create a new "input.txt" file in the program folder and paste the array into the text file.
+- Run the program using Node js
+- The code will create a .csv file which you can import directly into your ygoProDeck Collection!
+
+Known bugs: Cards with a " , " in them have issues being converted to CSV.
